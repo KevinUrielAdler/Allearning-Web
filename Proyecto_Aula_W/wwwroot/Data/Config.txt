@@ -1,0 +1,11 @@
+*txt* - Titulo del Tema
+t/f - caja de texto (solo lectura)
+	*txt* - Nombre del archivo de texto a leer (incluyendo .txt,.doc,.docx,etc.) (solo en caso de haber puesto "t" en la opcion anterior)
+t/f - radio buttons
+	*num* - cantidad de radio buttons (solo en caso de haber puesto "t" en la opcion anterior)
+	*num* lineas cada una con un *txt* que será el texto del radio button i
+	*num* - un numero indicando cuál es la opcion correcta (si se ingresa 0 cualquier opcion se considerara correcta)
+t/f - caja de texto (para ingresar una respuesta de texto)
+	*txt* - respuesta correcta (si no se ingresa este texto en la caja de texto no se podrá continuar)
+t/f - imagen (debe ser de resolucion 704, 312)
+	*txt* - nombre de la imagen (incluyendo .jpg,.jpeg,.png,etc.) (solo en caso de haber puesto "t" en la opcion anterior)

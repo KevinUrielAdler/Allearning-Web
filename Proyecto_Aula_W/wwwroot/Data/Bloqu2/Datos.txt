@@ -1,0 +1,2 @@
+Los datos son, por definición, representaciones simbólicas de un determinado atributo o variable cualitativa o cuantitativa, o sea: la descripción codificada de un hecho empírico, un suceso, una entidad. 
+En programación son la información que recibe el computador a través de distintos medios, que es almacenada en espacios específicos de memoria, y que es manipulada mediante el procesamiento de los algoritmos de programación.

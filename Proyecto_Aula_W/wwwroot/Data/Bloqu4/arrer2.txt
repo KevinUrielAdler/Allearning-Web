@@ -1,0 +1,2 @@
+
+La utilidad de los arreglos está en que si, por ejemplo, se requirieran pedir 1,000,000 de datos al usuario, sería muy tedioso para el programador declarar 1,000,000 de variables, todas con un nombre diferente, y luego usarlas adecuadamente. Es así que un arreglo solo se declara una vez, y tiene un solo nombre, lo que, con ayuda de algún ciclo repetitivo, nos facilita enormemente el trabajar con números grandes. 

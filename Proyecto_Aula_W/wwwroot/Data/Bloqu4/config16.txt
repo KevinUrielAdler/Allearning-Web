@@ -1,0 +1,7 @@
+Implementación con “for”
+t
+ImpFor5.txt
+f
+f
+t
+im7.png

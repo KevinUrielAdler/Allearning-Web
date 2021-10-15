@@ -1,0 +1,3 @@
+
+
+5. Modulo: La operación de módulo devuelve el residuo de una división de dos números y se usa con el símbolo del teclado “%”, se puede asignar el resultado de un módulo a otras variables o a un cout. 

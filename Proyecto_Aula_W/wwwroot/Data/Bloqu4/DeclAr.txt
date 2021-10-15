@@ -1,0 +1,4 @@
+
+Un arreglo se declara de la siguiente forma: *Tipo* *Nombre*[*Tamaño*];
+
+1. Tipo: Aquí, así como cuando se declara una variable, tendremos que poner que tipo de datos va a almacenar nuestro arreglo (int, char, float, etc.).

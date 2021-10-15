@@ -1,0 +1,10 @@
+
+
+
+Los datos tipo entero incluyen, como su nombre lo indica, a los números enteros (sin punto decimal), tanto positivos como negativos, y el rango varía según el tipo de dato que se elija:
+
+• short: De rango -32,768 <= X <= 32,767. Generalmente se usa para números muy pequeños, control de bucles pequeños. 
+
+• int: De rango -2,147,483,648 <= X <= 2,147,483,647. Generalmente se usa para números pequeños, control de bucles.
+
+• long: De rango -2,147,483,648 <= X <= 2,147,483,647. Generalmente se usa para números grandes.

@@ -1,0 +1,5 @@
+
+Para obtener o modificar el valor de un espacio de nuestro arreglo se le debe llamar, esto se hace mediante la siguiente sintaxis:
+
+1. Nombre el Arreglo.
+2. Posición que queremos modificar o saber su valor (entre corchetes).

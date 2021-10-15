@@ -1,0 +1,49 @@
+﻿@page
+@model LoginModel
+
+@{ ViewData["Title"] = "Inicia sesión"; }
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+</div>
+<body style="background-image:url(https://i.ibb.co/B3bBrY7/General.png); background-repeat:no-repeat; background-size:cover;">
+    <div class="row">
+        <div class="columna col-8 offset-2 col-md-4 offset-md-4">
+            <section>
+                <form id="account" method="post">
+                    <h4></h4>
+                    <hr />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label>Nombre de Usuario</label>
+                        <input asp-for="Input.UserName" class="form-control" />
+                        <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Contraseña</label>
+                        <input asp-for="Input.Password" class="form-control" />
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <a asp-action="Index" asp-controller="Home" class="btn btn-outline-danger">Regresar</a> <button type="submit" class="btn btn-success">Iniciar sesión</button>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label>¿Aún no tienes cuenta?</label> <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Regístrate</a>
+                        </p>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="col-md-6 col-md-offset-2">
+
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+</body>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }

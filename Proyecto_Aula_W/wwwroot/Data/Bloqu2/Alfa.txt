@@ -1,0 +1,9 @@
+
+
+• char: Está orientado a almacenar un "carácter" (unidad de texto: normalmente una letra, dígito, signo de puntuación, espacio, etc.).
+
+Para referirse a este tipo de dato se debe colocar el carácter a tratar entre comillas simples, por ejemplo: 'a', '#', '-', '9', etc.
+
+• string: Es una secuencia ordenada (de longitud arbitraria, aunque finita) de caracteres (letras, números u otros signos o símbolos). Visto de otra forma, son datos tipo char puestos uno después del otro.
+
+Para referirse a este tipo de dato se debe colocar el texto a tratar entre comillas dobles, por ejemplo: “Hola Mundo!”, “Manzana”, “5 x 2 es igual a 10”, etc.

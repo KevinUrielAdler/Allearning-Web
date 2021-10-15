@@ -1,0 +1,7 @@
+Implementación con “for”
+t
+ImpFor9.txt
+f
+f
+t
+im9.png

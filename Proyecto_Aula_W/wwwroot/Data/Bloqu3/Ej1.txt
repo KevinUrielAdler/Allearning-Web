@@ -1,0 +1,9 @@
+De acuerdo con el siguiente código ¿Qué debe ser cambiado para que funcione?
+
+else if(a < b){         
+cout<<”bien hecho”;
+}                             
+
+if(a > b){                 
+cout<<”mal hecho”; 
+}                             

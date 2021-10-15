@@ -1,0 +1,6 @@
+La mayoría de los lenguajes de programación, obligan a declarar la variable para crearla.
+Para declarar una variable en c++ se debe:
+
+1. Especificar el tipo de dato que va a contener.
+2. Nombrar la Variable.
+3. Por último, se finaliza la instrucción con un “;”.

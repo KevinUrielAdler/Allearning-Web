@@ -1,0 +1,12 @@
+Ejercicio
+t
+Ej7.txt
+t
+4
+5
+2
+4
+6
+3
+f
+f

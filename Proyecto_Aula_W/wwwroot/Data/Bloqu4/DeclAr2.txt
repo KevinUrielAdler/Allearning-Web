@@ -1,0 +1,3 @@
+2. Nombre: Al igual que con las variables, el nombre es el que el programador decida darle, ya que solo servirá para programar, pero al momento de la ejecución, no afecta en nada.
+
+3. Tamaño: Este es el numero de espacios en los que nuestro arreglo podrá almacenar algún dato. 

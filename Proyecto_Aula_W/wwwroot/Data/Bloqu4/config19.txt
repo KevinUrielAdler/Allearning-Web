@@ -1,0 +1,7 @@
+Implementación con “for”
+t
+ImpFor8.txt
+f
+f
+t
+im8.png

@@ -1,0 +1,4 @@
+
+1. Es la biblioteca que por definición es donde el compilador encontrará la definición de cada una de tus instrucciones marcadas en el código.
+
+2. Es el "Main", y contendrá todo tu código principal.

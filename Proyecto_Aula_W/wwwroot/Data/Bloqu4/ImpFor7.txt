@@ -1,0 +1,3 @@
+5. Entonces, si en cada ciclo pedimos “arre[i]” al usuario, estaremos pidiendo arre[0] en el primer ciclo, arre[1] en el segundo, etc.
+
+6. Para comprobar que todos los datos se guardaron correctamente y en orden necesitamos imprimir el arreglo, por lo que creamos otro for exactamente igual al anterior para volver a recorrer el arreglo de inicio a fin.

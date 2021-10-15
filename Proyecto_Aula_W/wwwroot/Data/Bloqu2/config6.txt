@@ -1,0 +1,6 @@
+Flotantes y Booleanos
+t
+FlotBoo.txt
+f
+f
+f

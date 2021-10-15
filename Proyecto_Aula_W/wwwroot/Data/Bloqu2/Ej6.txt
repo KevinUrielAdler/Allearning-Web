@@ -1,0 +1,7 @@
+El siguiente código debería imprimir la multiplicación de las variables a y b ¿en que falla?
+
+int a = 4;
+
+int b = 3;
+
+a * b;

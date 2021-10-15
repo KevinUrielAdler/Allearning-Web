@@ -1,0 +1,3 @@
+
+
+Sin embargo, un string sí tiene características que lo hace pertenecer a este bloque, por ejemplo, su composición puede tratarse como a la de un arreglo y se pueden llamar distintas posiciones del string por su índice.

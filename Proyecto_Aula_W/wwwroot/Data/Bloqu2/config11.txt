@@ -1,0 +1,8 @@
+Ejercicio
+t
+Ej1.txt
+f
+t
+char
+t
+Tip1.png

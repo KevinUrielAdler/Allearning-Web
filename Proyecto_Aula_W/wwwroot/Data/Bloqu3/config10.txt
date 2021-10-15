@@ -1,0 +1,12 @@
+Ejercicio
+t
+Ej1.txt
+t
+4
+El "if" y "else if"
+Las variables
+Quitar las comillas
+Todo está bien
+1
+f
+f

@@ -1,0 +1,4 @@
+
+Completa el tipo de datos de cada variable de acuerdo con el valor que se le quiere asignar:
+
+____ Variable1 = 'h';

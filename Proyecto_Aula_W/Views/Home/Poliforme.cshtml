@@ -1,0 +1,269 @@
+﻿
+@{
+    ViewData["Title"] = "Lección";
+}
+@if (ViewBag.v1 == true)
+{
+    <body style="background-image:url(https://i.ibb.co/B3bBrY7/General.png); background-repeat:no-repeat; background-size:cover;">
+        <form>
+            <h1 class="text-center" style="font-size:50px">@ViewBag.Titulo</h1>
+            <br />
+            <br />
+            @if (ViewBag.VCT == true)
+            {
+                <p class="text-center" style="font-size:25px">@ViewBag.CT</p>
+                <br />
+            }
+            @if (ViewBag.VOpc1 == true)
+            {
+                <table align="center" width="1000">
+                    <tbody style="font-size:27px">
+                        <tr>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc1 == true)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            @ViewBag.Opc1
+                                        </label>
+                                    </div>
+                                }
+                            </td>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc2 == true)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            @ViewBag.Opc2
+                                        </label>
+                                    </div>
+                                }
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>⠀</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc3 == true)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            @ViewBag.Opc3
+                                        </label>
+                                    </div>
+                                }
+                            </td>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc4 == true)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            @ViewBag.Opc4
+                                        </label>
+                                    </div>
+                                }
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            }
+            @if (ViewBag.VET == true)
+            {
+                <div class="form-group text-center">
+                    <input type="text" placeholder="Respuesta" maxlength="30" class="form-control align-content-center" />
+                </div>
+                <br />
+            }
+            @if (ViewBag.VI == true)
+            {
+                <div class="text-center">
+                    <img class="align-self-center" src=@ViewBag.I.ToString() alt=@ViewBag.I.ToString() height="312" width="704" />
+                </div>
+            }
+            <br />
+            <table align="right">
+                <tr>
+                    <td>
+                        <a asp-action="Index" asp-controller="Home" class="btn btn-outline-danger">Regresar</a>
+                    </td>
+                    <td>⠀⠀⠀</td>
+                    <td style="font-size:30px">@ViewBag.NA / @ViewBag.MB</td>
+                    <td>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</td>
+                    <td>
+                        <div class="form-group">
+                            <a asp-action="Atras" asp-controller="Home" class="btn btn-success">Atrás</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <a asp-action="Siguiente" asp-controller="Home" class="btn btn-success">Siguiente</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+}
+else
+{
+    <body style="background-image:url(https://i.ibb.co/B3bBrY7/General.png); background-repeat:no-repeat; background-size:cover;">
+        <form>
+            <h1 class="text-center" style="font-size:50px">@ViewBag.Titulo</h1>
+            <br />
+            <br />
+            @if (ViewBag.VCT == true)
+            {
+                <p class="text-center" style="font-size:25px">@ViewBag.CT</p>
+                <br />
+            }
+            @if (ViewBag.VOpc1 == true)
+            {
+                <table align="center" width="1000">
+                    <tbody style="font-size:27px">
+                        <tr>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc1 == true)
+                                {
+                                    if (ViewBag.contr2 == "1")
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-success" for="flexRadioDefault1">
+                                                @ViewBag.Opc1
+                                            </label>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-danger" for="flexRadioDefault1">
+                                                @ViewBag.Opc1
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                            </td>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc2 == true)
+                                {
+                                    if (ViewBag.contr2 == "2")
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" checked type="radio" name="flexRadioDefault"id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-success" for="flexRadioDefault1">
+                                                @ViewBag.Opc2
+                                            </label>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-danger" for="flexRadioDefault1">
+                                                @ViewBag.Opc2
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>⠀</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc3 == true)
+                                {
+                                    if (ViewBag.contr2 == "3")
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-success" for="flexRadioDefault1">
+                                                @ViewBag.Opc3
+                                            </label>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-danger" for="flexRadioDefault1">
+                                                @ViewBag.Opc3
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                            </td>
+                            <td class="text-center">
+                                @if (ViewBag.VOpc4 == true)
+                                {
+                                    if (ViewBag.contr2 == "4")
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-success" for="flexRadioDefault1">
+                                                @ViewBag.Opc4
+                                            </label>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                                            <label class="form-check-label text-danger" for="flexRadioDefault1">
+                                                @ViewBag.Opc4
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            }
+            @if (ViewBag.VET == true)
+            {
+                <div class="form-group text-center">
+                    <input type="text" value="Respuesta Correcta: @ViewBag.contr" disabled maxlength="30" class="form-control text-center text-success" />
+                </div>
+                <br />
+            }
+            @if (ViewBag.VI == true)
+            {
+                <div class="text-center">
+                    <img class="align-self-center" src=@ViewBag.I.ToString() alt=@ViewBag.I.ToString() height="312" width="704" />
+                </div>
+            }
+            <br />
+            <table align="right">
+                <tr>
+                    <td>
+                        <a asp-action="Index" asp-controller="Home" class="btn btn-outline-danger">Regresar</a>
+                    </td>
+                    <td>⠀⠀⠀</td>
+                    <td style="font-size:30px">@ViewBag.NA / @ViewBag.MB</td>
+                    <td>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</td>
+                    <td>
+                        <div class="form-group">
+                            <a asp-action="Atras" asp-controller="Home" class="btn btn-success">Atrás</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <a asp-action="Siguiente" asp-controller="Home" class="btn btn-success">Siguiente</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </body>
+        }
+        <br />
+        <br />
+        <br />

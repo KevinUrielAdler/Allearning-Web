@@ -1,0 +1,7 @@
+Estructura Condicional “if”
+t
+EstIf.txt
+f
+f
+t
+im2.png

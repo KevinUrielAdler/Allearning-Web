@@ -1,0 +1,12 @@
+Ejerecicio
+t
+Ej6.txt
+t
+4
+Falta el cout
+No puso el punto y coma
+Falta una variable
+Está todo bien
+1
+f
+f

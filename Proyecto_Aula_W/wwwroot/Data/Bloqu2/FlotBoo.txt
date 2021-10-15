@@ -1,0 +1,11 @@
+
+
+Los datos tipo flotante además de números enteros, también manejan números de coma flotante, es decir números decimales, con un límite de precisión.
+
+• float: De rango 1.18e-38 <= |X| <= 3.40e38. Con precisión científica de 7 dígitos después del 0.
+
+• double: De rango 2.23e-308 <= |X| <= 1.79e308. Con precisión científica de 15 dígitos después del 0.
+
+
+
+El dato tipo bool solo puede almacenar 2 valores: verdadero o falso (true, false).

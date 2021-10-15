@@ -1,0 +1,5 @@
+Completa lo que falta para imprimir todas las posiciones del arreglo tamaño “n”:
+
+for(int cont = 0;cont < n;cont++){
+	cout << arre[__] << endl;
+}                                                   

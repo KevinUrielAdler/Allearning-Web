@@ -1,0 +1,4 @@
+Dentro de la consola de c++ hay 3 factores muy importantes:
+
+1. La entrada: Ésta es indicada por el usuario y es la leída de datos marcada en el código con la instrucción cin>>x, que realiza la función de leer una variable.
+La salida: Es la parte de la consola que imprimirá en la pantalla los datos marcados en las instrucciones cout<<x, que hace la función de imprimir datos en la consola.

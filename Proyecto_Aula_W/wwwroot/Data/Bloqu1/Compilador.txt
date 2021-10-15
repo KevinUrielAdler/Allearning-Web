@@ -1,0 +1,3 @@
+
+
+Este es un compilador de c++ que es el lugar donde se ejecutarán todos tus códigos y es esencial que tengas un perfecto conocimiento de éste, a continuación verás todos sus elementos.

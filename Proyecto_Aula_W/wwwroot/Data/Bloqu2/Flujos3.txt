@@ -1,0 +1,2 @@
+
+• cout: Es el flujo de salida estándar que por lo general es la consola, para usar este flujo es necesario indicarle el dato que va a imprimir en la consola, para esto podemos escribir el dato directamente o darle el nombre de la variable que almacena el dato a imprimir, su sintaxis es: cout<<*Nombre de la variable o dato a imprimir*;

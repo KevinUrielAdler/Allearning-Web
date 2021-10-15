@@ -1,0 +1,2 @@
+Es un conjunto de caracteres, o valores de tipo "char". Internamente se almacenan en posiciones consecutivas de memoria en forma de arreglo.
+Ya hemos estado trabajando con cadenas en este curso, las hemos conocido como el tipo de dato string, y es que como tal no es un tipo de dato, sino una cadena de caracteres, pero su uso es tan común y su declaración tan sencilla que, a priori, no hay mucha diferencia con los otros tipos de datos.

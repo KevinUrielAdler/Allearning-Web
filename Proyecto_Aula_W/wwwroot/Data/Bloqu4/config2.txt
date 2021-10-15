@@ -1,0 +1,7 @@
+Arreglos
+t
+arre.txt
+f
+f
+t
+im2.png

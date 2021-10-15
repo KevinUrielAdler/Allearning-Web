@@ -1,0 +1,7 @@
+Compilador
+t
+Compilador.txt
+f
+f
+t
+im1.png

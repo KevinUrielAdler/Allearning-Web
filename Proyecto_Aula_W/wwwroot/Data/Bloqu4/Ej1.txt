@@ -1,0 +1,6 @@
+
+
+
+¿Cuál es la mínima posición de este arreglo?
+
+bool arre[17];

@@ -1,0 +1,7 @@
+Estructura Condicional “else”
+t
+EstEl.txt
+f
+f
+t
+im6.png

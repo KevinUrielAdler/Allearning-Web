@@ -1,0 +1,2 @@
+
+Así podríamos tratar al arreglo en la posición elegida como una variable normal, y hacer lo que podemos hacer con una variable, como asignarle un valor o pedirlo mediante un cin. Pero debemos llamar el arreglo de la forma correcta, de lo contrario podríamos sufrir un desbordamiento de memoria. 

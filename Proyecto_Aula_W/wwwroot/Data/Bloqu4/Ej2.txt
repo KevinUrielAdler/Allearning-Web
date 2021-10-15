@@ -1,0 +1,6 @@
+
+
+
+¿Y la máxima?
+
+bool arre[17];

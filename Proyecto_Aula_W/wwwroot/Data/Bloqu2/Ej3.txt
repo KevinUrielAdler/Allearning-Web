@@ -1,0 +1,5 @@
+Completa el código para que el programa imprima el numero 10 en la consola:
+
+int Variable = 10;
+
+_____ << Variable;

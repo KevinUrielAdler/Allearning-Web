@@ -1,0 +1,7 @@
+Declaración de Variables
+t
+DeclVar2.txt
+f
+f
+t
+im6.png

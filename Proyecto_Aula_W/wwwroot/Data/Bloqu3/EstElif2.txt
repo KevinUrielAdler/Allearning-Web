@@ -1,0 +1,2 @@
+
+En el siguiente ejemplo estamos ingresando dos numero distintos, siendo “a” menor a “b”, entonces, la condición del “if” retorna falso, ya que no son iguales, por lo que entra a la condición del “else if” la cual retorna verdadero, porque a efectivamente es menor a b, y realiza el subproceso, que es imprimir “a es menor a b” mediante un cout.

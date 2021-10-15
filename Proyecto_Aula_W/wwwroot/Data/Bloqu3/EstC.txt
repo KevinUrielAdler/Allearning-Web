@@ -1,0 +1,2 @@
+
+Las estructuras condicionales son estructuras que nos permiten decidir si queremos hacer o no hacer algo dependiendo de distintos factores, desde datos ingresados por el usuario hasta resultados del proceso de nuestro programa.

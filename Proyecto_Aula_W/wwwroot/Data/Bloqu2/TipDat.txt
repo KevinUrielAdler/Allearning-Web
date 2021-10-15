@@ -1,0 +1,5 @@
+Los tipos básicos de datos, también llamados primitivos, muy extensamente, se pueden agrupar en 3:
+
+• Los tipos de datos numéricos.
+• Los lógicos.
+• Los de texto (o alfanuméricos).

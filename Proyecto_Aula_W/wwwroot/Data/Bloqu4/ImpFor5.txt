@@ -1,0 +1,4 @@
+
+3. Ya que el usuario nos dio cuántos datos va a ingresar creamos el arreglo de tamaño “n”, para que pueda almacenar exactamente todos los datos que el usuario ingrese.
+
+4. Creamos el primer for que se repetirá n veces.

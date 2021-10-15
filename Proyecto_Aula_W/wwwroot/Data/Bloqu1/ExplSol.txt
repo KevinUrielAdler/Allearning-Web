@@ -1,0 +1,3 @@
+
+
+2. El explorador de soluciones: En esta parte indica el tiempo de ejecución de tu código además de cuántas veces se tuvo que repetir.

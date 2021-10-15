@@ -1,0 +1,6 @@
+Completa el código:
+
+if(a==10){                               
+cout<<"Tu numero es 10"; }     
+____{                                    
+cout<<"Tu numero no es 10"; }

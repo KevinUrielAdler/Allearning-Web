@@ -1,0 +1,2 @@
+En el bloque anterior vimos como hacer un ciclo que itere 10 veces de dos formas distintas, en la primera el contador iba de 1 a 10, en la segunda de 0 a 9, ¿eres capaz de identificar la relación entre esta segunda forma y los arreglos?
+En la programación siempre habrá retos relacionados con cantidades de datos titánicas, en el futuro le enseñaremos a manejar todos estos datos de manera óptima, pero por ahora, hay que aprender a pedirlos al usuario.

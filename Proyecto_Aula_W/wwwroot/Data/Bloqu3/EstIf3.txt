@@ -1,0 +1,2 @@
+
+En este ejemplo estamos pidiendo al usuario 2 variables, como ambas son iguales entonces el programa entra al subproceso, el cual dice que hay que imprimir “a es igual a b” mediante un cout, si los números fueran diferentes simplemente se saltaría este proceso, y en este ejemplo, terminaría el programa, ya que no hay ninguna instrucción después del if. 

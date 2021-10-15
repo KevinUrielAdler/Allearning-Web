@@ -1,0 +1,5 @@
+
+Si se desea darle un valor a la variable desde su creación, a lo anterior se le debe añadir:
+
+1. Un signo “=” que representa asignación.
+2. Seguido del valor que deseamos asignar a la variable.

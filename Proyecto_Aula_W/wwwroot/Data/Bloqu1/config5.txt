@@ -1,0 +1,7 @@
+Consola del Compilador
+t
+ExplSol.txt
+f
+f
+t
+im4.png

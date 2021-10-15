@@ -1,0 +1,2 @@
+
+Las colecciones en programación son estructuras que permiten almacenar datos del mismo tipo, el tamaño de estas colecciones puede ser definido o indefinido, en este bloque solo veremos 2 colecciones, que son las más básicas y comúnmente usadas.

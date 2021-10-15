@@ -1,0 +1,3 @@
+
+
+Aquí se ha declarado de nuevo una variable “Numeros”, esta vez dándole el valor inicial de 10, y le hemos indicado al programa que imprima el valor almacenado dentro de esa variable en la consola.

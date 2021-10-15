@@ -1,0 +1,3 @@
+
+
+3. Multiplicación: La multiplicación es un operador que realiza la multiplicación de dos o más variables numéricas mediante el símbolo del teclado “*”, se puede asignar el resultado de una multiplicación a otras variables o a un cout.

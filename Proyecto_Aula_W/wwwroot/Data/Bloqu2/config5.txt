@@ -1,0 +1,6 @@
+Enteros
+t
+Ent.txt
+f
+f
+f

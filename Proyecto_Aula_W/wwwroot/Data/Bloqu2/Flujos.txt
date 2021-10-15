@@ -1,0 +1,3 @@
+En c++ hay distintas formas de lograr una interacción del usuario con el programa, dos de ellos son el “cin” y el “cout”.
+
+• cin: Es el flujo de entrada estándar que normalmente es el teclado, para usar este flujo es necesario indicarle el nombre de la variable donde va a almacenar la información que nos dé el usuario, su sintaxis es: cin>>*Nombre de la variable*;

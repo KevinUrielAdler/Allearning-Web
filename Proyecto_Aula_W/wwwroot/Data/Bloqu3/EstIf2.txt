@@ -1,0 +1,3 @@
+
+
+2. Subproceso: Dentro de las llaves irá todo el proceso que el programa realizará en caso de que la condición se cumpla, de lo contrario, todo lo que esté dentro de las llaves será ignorado. 

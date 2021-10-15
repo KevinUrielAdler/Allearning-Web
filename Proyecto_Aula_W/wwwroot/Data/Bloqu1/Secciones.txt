@@ -1,0 +1,6 @@
+En la imagen se muestran los elementos más importantes de nuestro compilador:
+1. Cuadro de herramientas
+2. Contenedor de archivos
+3. Código
+4. Consola
+5. Depurador

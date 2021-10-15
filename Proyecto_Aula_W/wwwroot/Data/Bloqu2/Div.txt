@@ -1,0 +1,3 @@
+
+
+4. División: La división es un operador que realiza la división de dos o más variables numéricas mediante el símbolo del teclado “/”, se puede asignar el resultado de una división a otras variables o a un cout. 

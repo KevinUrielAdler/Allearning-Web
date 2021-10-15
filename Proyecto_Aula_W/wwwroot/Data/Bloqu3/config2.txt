@@ -1,0 +1,7 @@
+Estructuras Condicionales
+t
+EstC.txt
+f
+f
+t
+im1.png

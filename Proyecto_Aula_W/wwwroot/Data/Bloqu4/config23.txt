@@ -1,0 +1,7 @@
+Cadenas
+t
+Cad2.txt
+f
+f
+t
+im11.png

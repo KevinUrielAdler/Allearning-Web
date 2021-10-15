@@ -1,0 +1,3 @@
+
+
+Aunque bien se puede no crear ninguna variable e indicarle al programa que simplemente imprima el valor 10.

@@ -1,0 +1,3 @@
+
+
+En este ejemplo hemos creado una variable llamada “Numeros” de tipo entero, y estamos pidiéndole al usuario que ingrese un dato para asignar a esta variable.

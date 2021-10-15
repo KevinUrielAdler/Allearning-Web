@@ -1,0 +1,2 @@
+Por ejemplo, si declaramos un arreglo de tamaño 8 (que tenga 8 espacios de memoria), la posición más pequeña que existe en este arreglo es la 0, y la más grande es la numero 7, o generalizando más, la mínima posición de un arreglo siempre va a ser 0, y la máxima siempre va a ser n-1, siendo n el tamaño del arreglo.
+Así que si quisiéramos imprimir el valor de la última posición de nuestro arreglo (que en el ejemplo es 89), el código sería: “cout << arre[7]”;

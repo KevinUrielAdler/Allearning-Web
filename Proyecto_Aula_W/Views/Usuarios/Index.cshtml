@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Proyecto_Aula_W.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IDSesion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Introduccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Datos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstructurasL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Colecciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ordenacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Optimizacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ColeccionesA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OptimizacionII)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ColeccionesAII)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Iniciado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resultados)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RememberMe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDSesion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Introduccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Datos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstructurasL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Colecciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Funciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ordenacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Optimizacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ColeccionesA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OptimizacionII)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ColeccionesAII)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Iniciado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resultados)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RememberMe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

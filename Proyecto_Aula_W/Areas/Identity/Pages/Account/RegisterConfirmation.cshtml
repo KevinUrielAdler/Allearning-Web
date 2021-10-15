@@ -1,0 +1,46 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+<h1 class="text-center" style="font-size:90px">⠀</h1>
+@{
+    if (@Model.DisplayConfirmAccountLink)
+    {
+        <body style="background-image:url(https://i.ibb.co/B3bBrY7/General.png); background-repeat:no-repeat; background-size:cover;">
+            <p class="text-center">
+                <a id="confirm-link" class="btn btn-outline-info" style="font-size:70px" href="@Model.EmailConfirmationUrl">Da click para Finalizar el registro.</a>
+            </p>
+        </body>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    }
+    else
+    {
+        <body style="background-image:url(https://i.ibb.co/B3bBrY7/General.png); background-repeat:no-repeat; background-size:cover;">
+            <p>
+                Por favor confirma tu correo
+            </p>
+        </body>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    }
+}

@@ -1,0 +1,2 @@
+La sentencia if (“si”) nos permite realizar un proceso si cierta condición se cumple, de lo contrario, simplemente se saltará el proceso especificado, se declara de la siguiente forma: if(*Condición*) {*Subproceso*}
+1. Condición: Dentro de los paréntesis irá la pregunta que el programa será, y espera recibir un valor booleano (true o false), por lo que generalmente se usan operadores lógicos para hacer esta pregunta.

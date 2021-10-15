@@ -1,0 +1,3 @@
+
+
+También es posible asignar un valor a una variable después de haber sido declarada, solo invocando a la variable y repitiendo el procedimiento de asignación:

@@ -1,0 +1,3 @@
+
+
+7. Por último, imprimimos “arre[i]” mediante un cout, y agregamos un espacio para diferenciar los datos. 

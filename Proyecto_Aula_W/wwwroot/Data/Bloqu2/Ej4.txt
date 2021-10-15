@@ -1,0 +1,7 @@
+De acuerdo con el siguiente código ¿qué valor debería tener la variable c?
+
+int a = 12;
+
+int b = 7;
+
+int c = a + b;

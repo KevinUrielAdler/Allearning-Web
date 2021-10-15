@@ -1,0 +1,2 @@
+
+La sentencia else if (“si no entonces”) solo puede ser usada inmediatamente después de un “if”, y entra en acción cuando la condición de éste es falsa, en cambio, si la condición es verdadera, ignora por completo este else if. Se declara de la siguiente forma: else if(*Condición*) {*Subproceso*}

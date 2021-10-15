@@ -1,0 +1,49 @@
+﻿@page
+@model RegisterModel
+@{ ViewData["Title"] = "Registrate ahora"; }
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+</div>
+<body style="background-image:url(https://i.ibb.co/B3bBrY7/General.png); background-repeat:no-repeat; background-size:cover;">
+    <div class="row">
+        <div class="columna col-8 offset-2 col-md-4 offset-md-4">
+            <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <h4></h4>
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input asp-for="Input.Email" class="form-control" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Nombre de usuario</label>
+                    <input asp-for="Input.UserName" class="form-control" />
+                    <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input asp-for="Input.Password" class="form-control" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Comfirmar contraseña</label>
+                    <input asp-for="Input.ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+                <a asp-action="Index" asp-controller="Home" class="btn btn-outline-danger">Regresar</a> <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+            <br />
+            <p>
+                <label>¿Ya tienes cuenta?</label> <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Inicia sesión</a>
+            </p>
+        </div>
+        <div class="col-md-6 col-md-offset-2">
+        </div>
+    </div>
+    </body>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }

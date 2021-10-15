@@ -1,0 +1,14 @@
+En c++ se pueden comparar ciertos tipos de datos entre sí, para esto se utilizan los operadores lógicos, que comparan los valores de distintas variables y devuelven un valor booleano (true o false):
+
+
+“a < b” - Devuelve true si la variable “a” es menor a la variable “b”.   
+      
+“a > b” - Devuelve true si la variable “a” es mayor a la variable “b”.  
+       
+“a <= b” - Devuelve true si la variable “a” es menor o igual a la variable “b”.
+
+“a >= b” - Devuelve true si la variable “a” es mayor o igual a la variable “b”.
+
+“a == b” - Devuelve true si la variable “a” es igual a la variable “b”.        
+
+“a != b” - Devuelve true si la variable “a” es distinta a la variable “b”.     

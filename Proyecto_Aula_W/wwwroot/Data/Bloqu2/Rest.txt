@@ -1,0 +1,3 @@
+
+
+2. Resta: La resta es un operador que realiza la resta de dos o más variables numéricas mediante el símbolo del teclado “-”, se puede asignar el resultado de una resta a otras variables o a un cout. 

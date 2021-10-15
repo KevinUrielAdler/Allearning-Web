@@ -1,0 +1,2 @@
+
+Una variable es un objeto nombrado capaz de contener un dato que puede ser modificado durante la ejecución de programa. En C++, las variables tienen tipo, que significa que es necesario especificar el tipo de dato que se le asigna a una variable.

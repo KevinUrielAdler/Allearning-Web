@@ -1,0 +1,3 @@
+
+
+Sabemos que centro del ciclo for se puede hacer casi cualquier tipo de proceso y llevar a cabo casi cualquier tipo de instrucción que sea posible fuera de él, por ejemplo, el cin.

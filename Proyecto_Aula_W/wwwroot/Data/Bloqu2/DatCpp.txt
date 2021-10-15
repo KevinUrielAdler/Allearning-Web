@@ -1,0 +1,7 @@
+C++ tiene los siguientes tipos fundamentales:
+
+• Alfanuméricos: char, string.
+• Enteros: short, int, long, long long.
+• Números en coma flotante: float, double.
+• Booleanos: bool.
+• Vacío: void.

@@ -1,0 +1,3 @@
+
+
+Para que quede claro se ha hecho este código donde le pedimos al usuario un valor y seguido de eso imprimimos el valor que éste nos ha dado.

@@ -1,0 +1,238 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <body style="background-image:url(https://i.ibb.co/99cT2hK/Inicio-Progreso.png); background-repeat:no-repeat; background-size:cover;">
+        <div class="text-white">
+            <table align="center">
+                <tbody style="font-size:27px;">
+                    <tr>
+                        <td class="text-center" style="font-size:35px">
+                            <strong>⠀¡Bienvenido⠀<br />@User.Identity.Name!</strong>
+                        </td>
+                        <td class="text-center">
+                            <strong>Lección Actual: </strong>@ViewBag.TBA<br /><br /><strong>Progreso: </strong>@ViewBag.TPA%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <img src="~/img/lol.gif" alt="Allearning" height="224" width="216" />
+                        </td>
+                        <td class="text-center">
+                            <a style="font-size:35px" class="btn btn-info" asp-controller="Home" asp-action="Poliforme">Continuar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <h1 class="text-center" style="font-size:50px"><u>Progreso Total</u></h1>
+            <br />
+            <br />
+            <br />
+            <table width="1150">
+                <tbody>
+                    <tr>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success text-white" asp-controller="Home" asp-action="Introduccion">⠀Introducción a la Programación⠀</a><strong style="font-size:25px">⠀ @ViewBag.p1%</strong>
+                        </td>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success text-white" asp-controller="Home" asp-action="Datos">⠀⠀Creación y Manejo de Datos⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p2%</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>⠀</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success text-white" asp-controller="Home" asp-action="EstructurasL">⠀⠀⠀⠀⠀Estructuras Lógicas⠀⠀⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p3%</strong>
+                        </td>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success text-white" asp-controller="Home" asp-action="Colecciones">⠀⠀⠀⠀⠀Colecciones de Datos⠀⠀⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p4%</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>⠀</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success">⠀⠀⠀⠀⠀⠀⠀⠀Funciones⠀⠀⠀⠀⠀⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p5%</strong>
+                        </td>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success">⠀⠀⠀Algoritmos de Ordenación⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p6%</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>⠀</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success">⠀⠀Algoritmos de Optimización⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p7%</strong>
+                        </td>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success">⠀⠀⠀⠀Colecciones Avanzadas⠀⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p8%</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>⠀</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success">⠀Algoritmos de Optimización II⠀</a><strong style="font-size:25px">⠀ @ViewBag.p9%</strong>
+                        </td>
+                        <td class="text-center">
+                            <a style="font-size:20px" class="btn btn-outline-success">⠀⠀⠀Colecciones Avanzadas II⠀⠀⠀</a><strong style="font-size:25px">⠀ @ViewBag.p10%</strong>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+        </div>
+    </body>
+}
+else
+{
+    <body style="background-image:url(https://i.ibb.co/pPjKRvH/Si.png); background-repeat:no-repeat; background-size:cover;">
+        <div class="text-white">
+            <center>
+                <br />
+                <br />
+                <h1 style="font-size:50px">Bienvenido a Allearning</h1>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <a style="font-size:30px">¡Empieza a aprender ahora!</a>
+                <br />
+                <br />
+                <a style="font-size:30px" class="btn btn-outline-success" asp-area="Identity" asp-page="/Account/Login">Adquirir Ahora</a>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </center>
+            <table align="center">
+                <thead style="font-size:40px">
+                    <tr class="text-center">
+                        <td class="text-center">
+                            ¿Qué es Allearning?
+                        </td>
+                    </tr>
+                </thead>
+                <tbody style="font-size:27px">
+                    <tr>
+                        <td class="text-center">
+                            Es una aplicación que consiste en un sistema de aprendizaje de algoritmos y programación orientada al ámbito competitivo debido a la poca cantidad de aplicaciones o cursos que enseñan este campo de la programación.
+                        </td>
+                        <td>
+                            ⠀
+                        </td>
+                        <td class="text-center">
+                            <img src="~/img/Imagen_2.png" alt="Allearning" height="269" width="446" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <table align="center">
+                <thead style="font-size:40px">
+                    <tr class="text-center">
+                        <td></td>
+                        <td></td>
+                        <td class="text-center">
+                            Nuestro objetivo
+                        </td>
+                    </tr>
+                </thead>
+                <tbody style="font-size:27px">
+                    <tr>
+                        <td class="text-center">
+                            <img src="~/img/Imagen_1.png" alt="Allearning" height="406" width="445" />
+                        </td>
+                        <td>
+                            ⠀
+                        </td>
+                        <td class="text-center">
+                            Por lo general en contadas escuelas se enseña programación básica o algo relacionada con ésta. Por ende, esta aplicación está centrada en los usuarios que quieran entrar al mundo de la programación y puedan desarrollar sin alguna dificultad, el estudio de esta y que a futuro pueda aplicar los conocimientos adquiridos en algún trabajo que lo requiera.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <table align="center">
+                <thead style="font-size:40px">
+                    <tr class="text-center">
+                        <td class="text-center">
+                            ¿Quiénes somos?
+                        </td>
+                    </tr>
+                </thead>
+                <tbody style="font-size:27px">
+                    <tr>
+                        <td>
+                            ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            Somos un pequeño grupo de jóvenes que quiere tratar de ayudar a algunos estudiantes en la carrera de informática a mejorar su conocimiento en programación, no solamente a estudiantes de la carrera, sino a personas que también quieren tener principios en la programación y pueda empezar a aprender sin ningún curso presencial y desde la comodidad de su casa.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <table align="center">
+                <thead style="font-size:40px">
+                    <tr class="text-center">
+                        <td class="text-center">
+                            Contactanos <br />
+                        </td>
+                    </tr>
+                </thead>
+                <tbody style="font-size:27px">
+                    <tr>
+                        <td>
+                            ⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            Si presentas algún problema con nuestra aplicación o tienes alguna duda, no dudes en escribirnos, estaremos encantados de responder tus dudas o resolver tus problemas. :)<br /><br />Correo: allerningservise@gmail.com
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+        </div>
+        </body>
+        }

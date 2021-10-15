@@ -1,0 +1,7 @@
+Flujos de Entrada y Salida
+t
+Flujos5.txt
+f
+f
+t
+im10.png

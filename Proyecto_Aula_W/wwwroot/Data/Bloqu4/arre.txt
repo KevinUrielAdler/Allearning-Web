@@ -1,0 +1,2 @@
+
+Un arreglo en C++ es un conjunto de datos del mismo tipo que se almacenan en memoria de manera contigua bajo el mismo nombre. Para diferenciar los elementos de un arreglo se utilizan índices detrás del nombre del arreglo y encerrados por corchetes.

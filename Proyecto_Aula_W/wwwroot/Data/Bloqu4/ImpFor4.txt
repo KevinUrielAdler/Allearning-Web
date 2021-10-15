@@ -1,0 +1,4 @@
+
+1. Para empezar, queremos que el usuario pueda elegir cuántos datos va a ingresar, así que creamos una variable para almacenar esa información, en este caso, la variable se va a llamar “n”.
+
+2. Una vez creada la variable le pedimos “n” al usuario.

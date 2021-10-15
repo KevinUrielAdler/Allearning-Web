@@ -1,0 +1,5 @@
+De acuerdo con el siguiente código ¿qué falta para que imprima la resta de a y b?
+
+int a = 8;
+int b = 5;
+cout << _______;

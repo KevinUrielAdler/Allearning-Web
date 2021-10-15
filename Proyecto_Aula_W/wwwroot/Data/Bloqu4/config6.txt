@@ -1,0 +1,7 @@
+Uso de Arreglos
+t
+UsArr.txt
+f
+f
+t
+im4.png

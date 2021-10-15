@@ -1,0 +1,7 @@
+
+
+¿Qué número debe ir entre corchetes para que la consola imprima la letra "u"?
+
+string Palabra = "Celular";
+
+cout <<  Palabra[___];
