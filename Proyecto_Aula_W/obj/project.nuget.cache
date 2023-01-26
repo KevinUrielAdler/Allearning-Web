@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U1e82W84EfNBPQtZbajiocxGr1EFYnvVqh6vKRDOIK0yDwvtWCETKvvlQH/w7vuf8FApiMaFpHUif/Bk6OzGbw==",
+  "dgSpecHash": "7Ols33TyN5TgvBKvEilS5v3M+idmDX4cqubGbFjuERUuHoSXK0DDnBVKrTXw9gFwA5vb4RlYqODGxc3fvRd3ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\loboa\\source\\repos\\Proyecto_Aula_W\\Proyecto_Aula_W\\Proyecto_Aula_W.csproj",
+  "projectFilePath": "C:\\Users\\loboa\\Documentos\\GitHub\\Proyecto_Aula_W\\Proyecto_Aula_W\\Proyecto_Aula_W.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loboa\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\loboa\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
